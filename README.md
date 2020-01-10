@@ -32,14 +32,14 @@ Key user stories implemented by the application include:
 
 ### Repository Intro
 
-This is a minimal [React](https://reactjs.org/) project built with [Parcel](https://parceljs.org/)
+This is a minimal [Typescript](https://www.typescriptlang.org) / [React](https://reactjs.org) / [MobX](https://mobx.js.org) project built with [Parcel](https://parceljs.org/)
 
 Key files include:
 
-* api.tsx - contains [Typescript](https://www.typescriptlang.org/) models and mock API calls for all domain objects and actions in the application
-* index.jsx - entrypoint for the application, registers routes for each of the screens
-* WireSummary.jsx - implementation of the `Wire Summary` screen
-* WireDetail.jsx - implementation of the `Wire Detail` screen
+* api.tsx - contains models and mock API calls for all domain objects and actions in the application
+* index.tsx - entrypoint for the application, registers routes for each of the screens
+* WireSummary.tsx - implementation of the `Wire Summary` screen
+* WireDetail.tsx - implementation of the `Wire Detail` screen
 
 ### Quickstart
 
@@ -53,28 +53,29 @@ Key files include:
 
 ## Demo Styling Exercise
 
-This is a 1-hour time-boxed exercise where the goal is to start with the `Wire Summary` and `Wire Detail` pages appearing as they currently do, and change components, layouts, and styles in order to allow your product manager to demo the key user stories of this application to an existing client.
+This is a 1-hour time-boxed exercise where the goal is to start with the `Wire Summary` and `Wire Detail` pages appearing as they currently do, and change components, layouts, and styles in order to improve the first impression of this application formed by watching a product manager run through a demo of the key user stories.
 
 ##### Preparation
 
 Before the exercise begins, you must do the following:
 
 * Set up your development environment, clone this repository, and complete the Quickstart instructions
+* Skim through the code in this repository and get comfortable with how [Typescript](https://www.typescriptlang.org) and [React](https://reactjs.org) are used
 
-You may optionally research, download, and install (in a disabled manner) any libraries, utilities, or tools which you may find helpful for the 1-hour exercise provided that you do NOT touch the source code of `WiresDetail.jsx` and `WiresSummary.jsx` and you do NOT change the initial visual appearance and experience of the `Wire Summary` and `Wire Detail` screen.
+You may optionally research, download, install, and configure any libraries, utilities, or tools which you may find helpful for the 1-hour exercise provided that you do NOT touch the source code of `WiresDetail.tsx` and `WiresSummary.tsx` and you do NOT change the initial visual appearance and experience of the `Wire Summary` and `Wire Detail` screen.
 
-Acceptable things you may choose to do (but are neither required nor expected to do) ahead of the exercise includes:
-* Researching, downloading, installing, and testing standardized stylesheets, icon libraries, UI component libraries, and/or frameworks that you intend to use
+Acceptable things you may choose to do (but are neither required nor expected to do) ahead of the exercise include:
+* Research, download, install, configure, and test standardized stylesheets, icon libraries, UI component libraries, and/or frameworks that you intend to use
   * Make sure any dependencies you install do NOT affect the initial visual experience or functionality of the app
-* Reading through the source code of this repository
-* Sketching out possible designs / layouts
-* Bookmarking helpful public tutorials and documentation which you may want to reference during this exercise
+* Sketch out possible designs / layouts
+* Bookmark helpful public tutorials and documentation which you may want to reference during this exercise
+* Make a todo-list of proposed changes which you intend to make
 
-Some type of preparation is specifically forbidden, namely:
+Some type of preparation ahead of time is specifically forbidden, namely:
 
-* Do NOT make any changes at all to the code in `WiresDetail.jsx` and `WiresSummary.jsx`
-* Do NOT install any dependency or tool which changes the default rendering of the `Wire Summary` or `Wire Detail` page
-* Do NOT write any new code, styles, or snippets that are specific to this application or exercise
+* Do NOT make any changes at all to the code in `WiresDetail.tsx` and `WiresSummary.tsx`
+* Do NOT install or configure any dependency or tool which changes the default rendering of the `Wire Summary` or `Wire Detail` page
+* Do NOT write any new code, styles, or copy-pasteable snippets that are specific to this application or exercise
 
 ##### Exercise
 
@@ -94,8 +95,8 @@ The main purpose of this exercise is to evaluate your ability to identify and im
 
 A secondary purpose of this exercise is to help us get a sense of your "zero effort" default design aesthetic. That is to say, in the presence of functional requirements but the absence of any concrete UI or UX specification or resource allocation, in what direction do you take the UI and UX.
 
-We are specifically NOT evaluating you on the code quality, completeness, or production-readiness of your actual changes. Responsiveness, accessibility, internationalization, and any other aspect of your changes which doesn't obviously manifest itself during the final demo script is generally considered out-of-scope for this exercise.
-
 Part of this exercise will involve time management - we expect that you will NOT be producing your finest work within these constraints, and that is okay. We do however expect you to work within these time constraints and respect them. That is to say, your local dev copy of the application as of the start of the final demo is what you will be evaluated on - if it is broken, you will NOT be given an opportunity to make "one quick fix". We will provide a 5-minute warning before the final demo begins - you may use that time to wrap up or revert any in-progress changes and ensure your application is in a functional state.
 
+We are specifically NOT evaluating you on the code quality, completeness, or production-readiness of your actual changes. Responsiveness, accessibility, internationalization, and any other aspect of your changes which doesn't obviously manifest itself during the final demo script is generally considered out-of-scope for this exercise.
 
+We also are NOT evaluating you on your familarity with the languages, tools, and frameworks used in this sample application. You just need to have enough familiarity with them to complete the exercise. In other words, if you replace `foo` with `(foo as any)` just to make the Typescript compiler stop complaining, we won't judge. 
