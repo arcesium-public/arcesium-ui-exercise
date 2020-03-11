@@ -53,16 +53,18 @@ Key files include:
 
 ## Demo Styling Exercise
 
-This is a 1-hour time-boxed exercise where the goal is to start with the `Wire Summary` and `Wire Detail` pages appearing as they currently do, and change components, layouts, and styles in order to improve the first impression of this application formed by watching a product manager run through a demo of the key user stories.
+This is a two part visual styling exercise, both with the same goal - to improve the first impression of this application formed while running through a demo of the key user stories.
+
+The first part of this exercise is style the `Wire Summary` page as you see fit ahead of time, making any changes, using any libraries, and changing any portion of the UI and UX at your discretion.
+
+The second part of this exercise is a 1-hour time-boxed on-premise exercise where you apply equivalent styling changes to the `Wire Detail` page and talk through the changes you have made and how they tie into your preferred UX.
 
 ##### Preparation
 
-Before the exercise begins, you must do the following:
+Before the exercise begins, you should do the following:
 
 * Set up your development environment, clone this repository, and complete the Quickstart instructions
 * Skim through the code in this repository and get comfortable with how [Typescript](https://www.typescriptlang.org) and [React](https://reactjs.org) are used
-
-You may optionally research, download, install, and configure any libraries, utilities, or tools which you may find helpful for the 1-hour exercise provided that you do NOT touch the source code of `WiresDetail.tsx` and `WiresSummary.tsx` and you do NOT change the initial visual appearance and experience of the `Wire Summary` and `Wire Detail` screen.
 
 Acceptable things you may choose to do (but are neither required nor expected to do) ahead of the exercise include:
 * Research, download, install, configure, and test standardized stylesheets, icon libraries, UI component libraries, and/or frameworks that you intend to use
@@ -71,22 +73,25 @@ Acceptable things you may choose to do (but are neither required nor expected to
 * Bookmark helpful public tutorials and documentation which you may want to reference during this exercise
 * Make a todo-list of proposed changes which you intend to make
 
-Some type of preparation ahead of time is specifically forbidden, namely:
 
-* Do NOT make any changes at all to the code in `WiresDetail.tsx` and `WiresSummary.tsx`
-* Do NOT install or configure any dependency or tool which changes the default rendering of the `Wire Summary` or `Wire Detail` page
-* Do NOT write any new code, styles, or copy-pasteable snippets that are specific to this application or exercise
+##### Exercise Part One - Complete Ahead of Time
 
-##### Exercise
+The first part of this exercise consists of fixing the style of the `Wire Summary` page so that it continues to cover all of the user stories which have been mentioned earlier, but leaves a better first impression during a demo than the current page.
 
-This exercise will consist of a 10-minute window where a "product manager" will walk you through the intended demo script using your local copy of the application running in your development environment.
+Typical candidates may spend 2-4 hours on this portion of the exercise, including working through the quickstart, installing libraries and utilities, and taking a first pass at styling. 
 
-This will be followed by a 45-minute window in which you will be expect to change any parts of the application as you see fit in order to improve the visual appearence and user experience of the user stories covered by the demo. During this period, you are free to ask questions to either the "product manager" who will be giving the final demo or the "developer" who wrote the initial application. 
+You are free to spend as much or as little time on this exercise as you would like, and to choose your split between isntalling / configuring / learning reusable component libraries and widget toolkits vs. making changes specific to this application and page. 
 
-You are also free to use any publicly available resources which you normally would expect to use as part of your day-to-day work. IE: Google / StackOverflow is 110% okay. You may also either work in silence or explain your changes as you make them.
+Please keep track of how much time you have spent on this portion of the exercise and roughly what you spent it on. The main goal here isn't to produce the best possible first impression, but rather to demonstrate what you personally consider to be an optimal tradeoff between time invested and quality produced for what is a representative "small" unit of work.
 
-During the last 5 minutes, the "product manager" will run through the demo script again using your latest local development copy of the application.
 
+##### Exercise Part Two - Complete ON-site
+
+The second part of this exercise consists of live-editing the `Wire Detail` page to make it stylistically consistent with the changes you made to the `Wire Summary` page ahead of time, as well as explaining some of the changes you have made to the `Wire Summary` page.
+
+For this portion of the exercise, you should come prepared with the application and your preferred development environment set up on your laptop. During this exercise, you are free to use any publicly available resources which you normally would expect to use as part of your day-to-day work. IE: Google / StackOverflow is 110% okay.
+
+The main goal of this portion of the exercise is to demonstrate the marginal cost of bringing an additional page up to your stylistic standards after you have completed all of your initial setup.
 
 
 ##### Evaluation Criteria
@@ -95,8 +100,8 @@ The main purpose of this exercise is to evaluate your ability to identify and im
 
 A secondary purpose of this exercise is to help us get a sense of your "zero effort" default design aesthetic. That is to say, in the presence of functional requirements but the absence of any concrete UI or UX specification or resource allocation, in what direction do you take the UI and UX.
 
-Part of this exercise will involve time management - we expect that you will NOT be producing your finest work within these constraints, and that is okay. We do however expect you to work within these time constraints and respect them. That is to say, your local dev copy of the application as of the start of the final demo is what you will be evaluated on - if it is broken, you will NOT be given an opportunity to make "one quick fix". We will provide a 5-minute warning before the final demo begins - you may use that time to wrap up or revert any in-progress changes and ensure your application is in a functional state.
+Part of this exercise will involve time management - it is up to you choose the level of effort to invest ahead of time, with a preference for investing less time and focusing only on the highest impact changes.
 
-We are specifically NOT evaluating you on the code quality, completeness, or production-readiness of your actual changes. Responsiveness, accessibility, internationalization, and any other aspect of your changes which doesn't obviously manifest itself during the final demo script is generally considered out-of-scope for this exercise.
+We are specifically NOT evaluating you on the code quality, completeness, or production-readiness of your actual changes. Responsiveness, accessibility, internationalization, and any other aspect of your changes which doesn't obviously manifest itself during a basic walkthrough of the enumerated user stories is generally considered out-of-scope for this exercise.
 
 We also are NOT evaluating you on your familarity with the languages, tools, and frameworks used in this sample application. You just need to have enough familiarity with them to complete the exercise. In other words, if you replace `foo` with `(foo as any)` just to make the Typescript compiler stop complaining, we won't judge. 
